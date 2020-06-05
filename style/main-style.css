@@ -1,0 +1,274 @@
+/* CSS Stylesheet for Top of Times webpages */
+
+#body {
+	background-image:url(../images/bg-single-unit.jpg);
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#logo {
+	padding-left:20px;
+	padding-right:5px;
+}
+
+.mainmenu {
+	text-align:center;
+	vertical-align:middle;
+}
+
+ul.navbar {
+	overflow:auto;
+	background-color:#000;
+	background-image:url(../images/bg-wavy-pattern.png);
+	border-radius:0px 0px 60px 60px;
+	list-style-type:none;
+	color:#ffffff;
+	font-family:"Segoe UI Black";
+	text-align:center;
+	border-top:8px outset #C6A72B;
+	border-bottom:8px outset #C6A72B;
+	border-left:8px outset #C6A72B;
+	border-right:8px outset #C6A72B;
+
+}
+
+ul.navbar-footer {
+	overflow:hidden;
+	background-color:transparent;
+	list-style-type:none;
+	color:#ffffff;
+	font-family:"Trebuchet MS";
+	text-align:center;
+	margin-right:50px;
+}
+
+li.menu-item-footer {
+	float:left;
+	font-size:20px;
+}
+
+li.menu-item-footer a {
+	vertical-align:middle;
+	background-color:transparent;
+	text-decoration:none;
+	text-align:center;
+	float:left;
+	padding-left:32px;
+	padding-bottom:18px;
+	padding-right:25px;
+	padding-top:18px;
+	color:#ffffff;
+}
+
+li.menu-item-footer a:hover {
+	text-shadow: 0px 0px 15px #ffffff;
+	border-left:10px solid #fff;
+	border-right:10px solid #fff;
+}
+
+
+li.menu-item {
+	float:left;
+	font-size:18px;
+}
+
+li.menu-item a {
+	vertical-align:middle;
+	background-image:url(../images/bg-wavy-pattern.png);
+	background-color:#000;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	float:left;
+	padding-left:32px;
+	padding-bottom:18px;
+	padding-right:25px;
+	padding-top:18px;
+	color:#ffffff;
+}
+
+li.menu-item a:hover {
+	border-radius:0px 0px 60px 60px;
+	background-image: linear-gradient(#960, #D6D953);
+	text-shadow: 5px 5px 10px #C60;
+	box-shadow:0px 0px 10px orange;
+
+}
+
+ul.social {
+	list-style-type:none;
+	color:#000;
+	font-family:"Times New Roman", Times, serif;
+	padding-right:0px;
+}
+
+li#social-item1 {
+	font-size:12px;
+	font-family:"Segoe UI Black";
+}
+
+li#social-item1 a {
+	border-radius: 0px 0px 0px 0px;
+	background-color:#fff;
+	text-decoration:none;
+	text-align:center;
+	float:left;
+	padding:10px;
+	color:#000;
+	margin-left:40px;
+	margin-top:0px;
+}
+
+li#social-item1 a:hover {
+	background-image: linear-gradient(#333, #000);
+	color:#CC3;
+	box-shadow:0px 0px 50px orange;
+	transition: all .2s ease-in-out;
+	transform: scale(1.3);
+}
+
+#main-marquee {
+	overflow:hidden;
+	background-image:linear-gradient(#BD8D2B, #960);
+	border:4px dotted white;
+	padding: 10px;
+	border-radius:100px;
+}
+
+
+/*ALL CSS FOR MAIN CONTAINER START HERE*/
+
+.container-bg {
+	background-color:#000;
+	background-image:url(../images/bg-wavy-pattern.png);
+	border-radius: 20px 20px 0px 0px;
+}
+
+.container {
+	background-image:linear-gradient(#BD8D2B, #960);
+	margin-bottom:10px;
+	margin-top:0px;
+	margin-right:100px;
+	margin-left:100px;
+	border:brown;
+}
+
+/*ALL CSS FOR MAIN CONTAINER ENDS HERE*/
+
+
+#footer {
+	overflow:hidden;
+	background-color:black;
+	background-image:url(../images/bg-wavy-pattern.png);
+
+}
+
+
+#transbox-footer-att {
+	overflow:hidden;
+	background-image:url(../images/footer-dua-bg.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-image:linear-gradient(#960, #BD8D2B);
+	margin-top:0px;
+	margin-bottom:30px;
+	margin-left:100px;
+	margin-right:100px;
+	border-radius:0px 0px 150px 150px;
+}
+
+font#footer-att {
+	text-align:center;
+	font-family:"Adobe Garamond Pro";
+	font-size:18px;
+	font-weight:bold;
+	color:#FFF;
+	text-shadow: 1px 1px 10px brown;
+}
+
+#search-bar-element {
+	margin-bottom:-17px;
+	background-color:black;
+	background-image:url(../images/bg-wavy-pattern.png);
+	padding-left:15px;
+	padding-bottom:10px;
+	padding-right:20px;
+	padding-top:15px;
+	overflow:hidden;
+	border-radius:60px 60px 0px 0px;
+	border-top:8px solid #C6A72B;
+	border-bottom:none;
+	border-left:8px solid #C6A72B;
+	border-right:8px solid #C6A72B;
+}
+
+input#search-bar{
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	background-color:white;
+	border:8px outset #C6A72B;
+	background-image:url(../images/searchicon.png);
+	background-position:10px 10px;
+	background-repeat:no-repeat;
+	padding:12px 20px 12px 40px;
+	width:10px;
+	cursor:pointer;
+}
+
+input#search-bar:focus{
+	width:210px;
+	border:8px inset white;
+	background-color:#C6A72B;
+	color:white;
+	cursor:text;
+	box-shadow:0px 0px 50px orange;
+}
+
+#topscroller {
+	border:12px groove #C6A72B;
+	border-radius:5000px;
+	margin-left:10px;
+	position: fixed;
+	top:95%;
+	-webkit-transform: translateY(-70%);
+	-ms-transform: translateY(-70%);
+	transform: translateY(-70%);
+
+}
+
+#topscroller:hover {
+	border:12px groove #630;
+	border-radius:5000px;
+	box-shadow:0px 0px 60px orange;
+}
+
+#search-bar-element-bottom {
+	padding-left:15px;
+	padding-bottom:10px;
+	padding-right:20px;
+	padding-top:15px;
+	overflow:hidden;
+	border-radius:60px 60px 0px 0px;
+}
+
+input#search-bar-bottom {
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	background-color:white;
+	border:8px outset #B98815;
+	background-image:url(../images/searchicon.png);
+	background-position:10px 10px;
+	background-repeat:no-repeat;
+	padding:12px 20px 12px 40px;
+	width:10px;
+	cursor:pointer;
+}
+
+input#search-bar-bottom:focus{
+	width:210px;
+	border:8px inset white;
+	background-color:#C6A72B;
+	color:white;
+	cursor:text;
+	box-shadow:0px 0px 50px orange;
+}
